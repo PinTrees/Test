@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="list.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="map.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -30,8 +27,19 @@
     <ClCompile Include="login.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="stringMap.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="string.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stringMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

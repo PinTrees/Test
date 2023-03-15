@@ -1,10 +1,24 @@
 #pragma once
 #include <iostream>
 #include <utility>
-#include "list.cpp";
-#include "string.cpp";
+#include "list.h";
+#include "string.h";
 
 using namespace std;
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
+// 사용되지 않는 코드
 // 사용되지 않는 코드
 // 사용되지 않는 코드
 // 사용되지 않는 코드

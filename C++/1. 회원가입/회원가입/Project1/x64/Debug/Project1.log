@@ -1,0 +1,39 @@
+﻿  login.cpp
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.cpp(3,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.cpp(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.cpp(5,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\map.cpp(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\map.cpp(5,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\stringMap.h(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\stringMap.h(5,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.h(3,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.h(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.h(5,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\stringMap.h(305,1): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\stringMap.h(304,1): message : 클래스 템플릿 멤버 함수 'char *SMap<String>::constCharToChar(const char *)'을(를) 컴파일하는 중입니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\stringMap.h(291,3): message : 컴파일되는 함수 템플릿 인스턴스화 'char *SMap<String>::constCharToChar(const char *)'에 대한 참조를 확인하세요.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.h(104,15): message : 컴파일되는 클래스 템플릿 인스턴스화 'SMap<String>'에 대한 참조를 확인하세요.
+  main.cpp
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.h(3,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.h(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.h(5,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\map.cpp(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\map.cpp(5,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\stringMap.h(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\stringMap.h(5,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\main.cpp(8,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  map.cpp
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\map.cpp(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\map.cpp(5,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  string.cpp
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\string.cpp(41,32): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\string.cpp(51,33): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\string.cpp(70,30): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\string.cpp(129,43): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\string.cpp(138,29): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\string.cpp(165,32): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\login.cpp(174): warning C4715: 'LoginManager::login': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\stringMap.h(128): warning C4715: 'SMap<User>::SearchNode': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\pc\Desktop\회원가입 1.0.3\Project1\stringMap.h(128): warning C4715: 'SMap<String>::SearchNode': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Project1.vcxproj -> C:\Users\pc\Desktop\회원가입 1.0.3\x64\Debug\Project1.exe

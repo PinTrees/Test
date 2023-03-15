@@ -1,11 +1,11 @@
 #pragma once
 #include <iostream>
 #include <stdlib.h>
-#include "string.cpp";
-#include "login.cpp";
-#include "list.cpp"
+#include "login.h"
+#include "list.h"
 #include "map.cpp"
-#include "stringMap.cpp"
+#include "stringMap.h"
+#include "string.h";
 
 
 
@@ -14,7 +14,7 @@
 // 
 // [ÂüÁ¶]
 // https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=duehd88&logNo=20201487812
-ostream& operator<<(ostream& cout, const String& ms) 
+ostream& operator<<(ostream& cout, const String& ms)  
 {
     if(ms.length > 0) cout << ms.characters; 
     return cout;
@@ -23,11 +23,11 @@ ostream& operator<<(ostream& cout, const String& ms)
 istream& operator>>(istream& cin, String& ms)
 {
     char* tmp = new char[10000];
-    cin >> tmp;
-    ms = tmp;
+    cin >> tmp; 
+    ms = tmp; 
     return cin; 
 }
-  
+    
  
  
 
