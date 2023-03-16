@@ -3,11 +3,12 @@
 #include "string.h"
 using namespace std;
 
+# define ARRSIZE( member ) size_of(member) / size_of(member[0]);
 
-// String << ¿¬»êÀÚ ¿À¹ö¶óÀÌµù
-//  ¸ÞÀÎ ÇÔ¼ö°¡ ÀÖ´Â cpp ÆÄÀÏ¿¡ ¿À¹ö·Îµù ÇØ¾ßÇÔÀ» È®ÀÎ 
+// String << ì—°ì‚°ìž ì˜¤ë²„ë¼ì´ë”©
+//  ë©”ì¸ í•¨ìˆ˜ê°€ ìžˆëŠ” cpp íŒŒì¼ì— ì˜¤ë²„ë¡œë”© í•´ì•¼í•¨ì„ í™•ì¸ 
 // 
-// [ÂüÁ¶]
+// [ì°¸ì¡°]
 // https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=duehd88&logNo=20201487812
 ostream& operator<<(ostream& cout, const String& ms)
 {
