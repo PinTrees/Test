@@ -3,7 +3,7 @@
 #include "string.h"
 using namespace std;
 
-# define ARRSIZE( member ) size_of(member) / size_of(member[0]);
+#define ARRSIZE( member ) size_of(member) / size_of(member[0]);
 
 // String << 연산자 오버라이딩
 //  메인 함수가 있는 cpp 파일에 오버로딩 해야함을 확인 
