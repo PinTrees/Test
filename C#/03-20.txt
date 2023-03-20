@@ -1,0 +1,75 @@
+     // 주소값
+        // 
+        //
+        // 매개변수 및 리턴값 주소 / 참조
+        // ref int 
+        //
+        //
+
+        // 함수 획득 인자 주소값
+        // 리턴 변수가 많은 경우 / int.tryPaser( out );
+        // out 
+        // Function( out val );
+        // 
+        
+        
+        // 타입검사 is / return bool
+        
+        
+        // 중첩 클래스 가능
+       
+       
+          class AA
+    {
+        int a = 100;
+        public ref int aa()
+        {
+            // 외부 선언 변수만 참조로 반환 가능 
+            return ref a;
+        }
+
+        // 소멸자 사용 안함
+
+
+        // 가변매개변수 타입은 한개만 가능 / 맨 뒤에만 가능
+        // object / dynamic - 고정됨 커파일시 결정
+        public void Test(int a, params dynamic[] aa)
+        {
+            // 명명 매개변수
+            Test2(a: "", b: "", c: "");
+        }
+
+        public void Test2(string a, string b, string c="asdcsad")
+        {
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //partial 키워드  하나의 클래스 정의 나누기
+    
+    
+    //  sealed 추가 상속 금지 / 함수일 경우 sealed + override 키워드 함께 사용
+    
+    
+    
+    
+     // 확장 메서드
+    // 기초 static 클래스 내부에 static 함수로 구현
+    public static class EX {
+        // 처음 인자값 - 확장 메서드 적용 자료형 / 이후 인자값 / 
+        public static void ExFun(this int a)
+        {
+
+        }
+    }
+    
+    
+    
