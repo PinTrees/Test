@@ -12,7 +12,7 @@ var tuple = Tuple.Create("cat", 2, true);
 // 순수가상함수 - 인터페이스 클래스 예약어로 변경됨
 interface
 인터페이스에서 변수를 사용하려면 프로퍼티로 구현 - 접근제한자 구현 없음
-int val { get; set; }
+int val { get; set; } = 0;  가능
 함수는 기본 함수로 구현
 
 
@@ -30,8 +30,29 @@ public int valA
   get { return intA; }
   set { intA = value; }
 }
+C++   프로퍼티
+https://swear013.tistory.com/3
+
+#define PROPERTY(_get,_set) _declspec(property(get = _get, put = _set))
+#define PROPERTY_S(_set) _declspec(property(put = _set))
+#define PROPERTY_G(_get) _declspec(property(get = _get))
+#define PROPERTY_T(type, val) public void Set##val(type p_val)\
+{\
+val = p_val;\
+}\
+public type Get##val() \
+{\
+return val;\
+}\
+private type val
 
 
+// 생성자
+객체 생성시 중괄호로 초기화 가능
+
+// 문명형식 
+Map구조
+var aaa = new { TT: "sacas", TTT: "ascasd" };
 
 
 접근시
