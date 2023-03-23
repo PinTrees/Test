@@ -1,0 +1,19 @@
+튜플
+var tuple = Tuple.Create("cat", 2, true);
+(string, int, bool) tuple = ("cat", 2, true);
+
+// 함수 리턴형 튜플
+// 함수 리턴형 dynamic 가능 튜플 사용시
+(string, int, bool) AA( {
+  return ("cat", 2, true);
+}
+
+// 순수가상함수 - 인터페이스 클래스 예약어로 변경됨
+interface
+// 인터페이스 추가형 클래스 추상클래스
+abstract
+
+접근시
+tuple.Item1 (인덱스 고정 변수명으로 접근가능)
+// 휘발성 변수에 사용
+
