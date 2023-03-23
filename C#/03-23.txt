@@ -8,10 +8,31 @@ var tuple = Tuple.Create("cat", 2, true);
   return ("cat", 2, true);
 }
 
+인터페이스
 // 순수가상함수 - 인터페이스 클래스 예약어로 변경됨
 interface
+인터페이스에서 변수를 사용하려면 프로퍼티로 구현 - 접근제한자 구현 없음
+int val { get; set; }
+함수는 기본 함수로 구현
+
+
 // 인터페이스 추가형 클래스 추상클래스
 abstract
+함수 예약어 - virture > abstract
+자식클래스는 override
+public abstract void Function() {}
+
+
+프로퍼티 Get Set -
+protected int intA;
+public int valA
+{
+  get { return intA; }
+  set { intA = value; }
+}
+
+
+
 
 접근시
 tuple.Item1 (인덱스 고정 변수명으로 접근가능)
