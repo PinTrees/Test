@@ -1,0 +1,46 @@
+배열 
+
+/// 특정 클래스 내부 리스트에 대한 forEach 문 구현
+    public class BBBB : IEnumerator, IEnumerable
+        {
+            int[] arr = new int[100];
+            int position = -1;
+
+            public object Current
+            {
+                get { return arr[position]; }
+            }
+            public bool MoveNext()
+            {
+                position++;
+                return (position < arr.Length);
+            }
+
+            public void Reset()
+            {
+                position = -1; 
+            }
+
+            public IEnumerator GetEnumerator()
+            {
+                return (IEnumerator)this;
+            }
+
+            //IEnumerable
+
+
+            public int this[int ix]
+            {
+                get { return arr[ix]; }
+                set { }
+            }
+
+            public BBBB() {
+                for(int i = 0; i < arr.Length; i++)
+                {
+                    arr[i] = i;
+                }
+            }
+
+          
+        }
