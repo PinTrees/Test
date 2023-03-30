@@ -1,0 +1,18 @@
+웹 게임 - 크로스 플랫폼
+
+애니매이션 문서
+https://pub.dev/packages/rive
+
+사용 엔진
+https://pub.dev/packages/flame
+https://docs.flame-engine.org/1.1.0/flame/game.html
+
+에셋
+https://craftpix.net/
+
+
+데이터베이스 연동
+- 파이어베이스 인증 및 저장소
+
+결재
+https://pub.dev/packages/in_app_purchase
