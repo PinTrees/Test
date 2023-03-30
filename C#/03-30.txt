@@ -1,0 +1,29 @@
+캐치문 중복 작성 가능
+
+성공시 바로 
+try {
+}
+catch {
+}
+catch {
+}
+fanaily {
+}
+
+
+// 람다식 확장 메서드
+public static class EX  
+{
+    public static void ForEach<K, T>(this Dictionary<K, T> a, Action<K, T> fptr)
+    {
+        for(int i = 0; i < a.Count; i++)
+          fptr(a.Keys.ElementAt(i), a.Values.ElementAt(i));
+    }
+
+    public static void Sort<T>(this T[] a, Func<T, T, int> fptr)
+    {
+        Array.Sort(a, (T b, T c) => {
+            return fptr(b, c);
+        });
+    }
+}
