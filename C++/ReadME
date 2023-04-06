@@ -1,2 +1,20 @@
 // 비쥬얼 스튜디오 수정
 개별 구성요소 클래스 디자이너 설치
+
+
+class AA {
+public:
+	AA() {}
+
+	PROPERTY(Get, Set) int hp;
+	int Get() { return aa; }
+	void Set(int a) { aa = a; }
+
+	PROPERTY(GetB, SetB) BB* bbb;
+	BB* GetB() { return bb; }
+	void SetB(BB* a) { bb = a; }
+
+private:
+	int aa;
+	BB* bb;
+};
