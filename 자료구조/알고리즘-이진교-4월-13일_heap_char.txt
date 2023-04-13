@@ -1,0 +1,164 @@
+#include <iostream>
+
+#define HSIZE 15
+
+using namespace std;
+
+
+void insertHeap(char* value, char** heap, int* currHeapSize, int maxHeapSize, int* isInserted);
+void upHeap(char** heap, int idx);
+void buildUpHeap(char** heap, int heapSize);
+void deleteHeap(char** heap, int currHeapSize, char** deleteValue, int* isDeleted);
+void downHeap(char** heap, int pi, int heapSize);
+void buildDownHeap(char** heap, int heapSize);
+void printArray(char** data, int start, int end);
+
+
+
+
+
+
+
+
+//void swap(char* a, char* b) {
+//    char* tmp = a;
+//    strcpy(a, b);
+//    strcpy(b, tmp);
+//}
+
+void insertHeap(char* value, char** heap, int* currHeapSize, int maxHeapSize, int* isInserted) {
+    if (*currHeapSize + 1 <= maxHeapSize) {
+        (*currHeapSize)++;
+        heap[*currHeapSize] = value;
+        upHeap(heap, *currHeapSize);
+        *isInserted = 1;
+    }
+    else {
+        *isInserted = 0;
+    }
+}
+
+
+void upHeap(char** heap, int idx) {
+    int pi = idx / 2;
+    int min;   
+    
+    if ((pi >= 1) && (strcmp(heap[idx], heap[pi]) > 0) ) min = idx;
+    else min = pi; 
+    
+    if (min != pi) {
+        char* tmp = heap[pi];
+        heap[pi] = heap[idx];
+        heap[pi] = tmp;
+
+        upHeap(heap, pi);
+    }
+}
+
+
+
+void buildUpHeap(char** heap, int heapSize) {
+    for (int i = 2; i <= heapSize; i++)
+        upHeap(heap, i);
+}
+
+
+
+void deleteHeap(char** heap, int* currHeapSize, char** deleteValue, int* isDeleted) {
+    if (*currHeapSize >= 1) {
+        *deleteValue = heap[1];
+        heap[1] = heap[*currHeapSize];
+        (*currHeapSize)--;
+
+        downHeap(heap, 1, *currHeapSize);
+        *isDeleted = 1;
+    }
+    else {
+        *isDeleted = 0;
+    }
+}
+
+
+void downHeap(char** heap, int pi, int heapSize) {
+    int lci = pi * 2;
+    int rci = lci + 1;
+    int min;
+
+    if ((lci <= heapSize) && (strcmp(heap[lci], heap[pi]) > 0)) min = lci;
+    else min = pi;
+    if ((rci <= heapSize) && (strcmp(heap[rci], heap[min]) > 0)) min = rci;
+
+    if (min != pi) {
+        char* tmp = heap[pi];
+        heap[pi] = heap[min];
+        heap[min] = tmp;
+
+        downHeap(heap, min, heapSize);
+    }
+}
+
+
+void buildDownHeap(char** heap, int heapSize) {
+    for (int i = heapSize / 2; i >= 1; i--)
+        downHeap(heap, i, heapSize);
+}
+
+
+void printArray(char** data, int start, int end) {
+    printf_s("[ ");
+    for (int i = start; i <= end; i++) {
+        printf_s("%s, ", data[i]);
+    }
+    printf_s("]");
+}
+
+
+int main()
+{
+    const char* data[] = {"AAA", "EEE", "CCC", "KKK", "GGG","XXX", "ZZZ", "HHH", "BBB", "YYY", "OOO", "IZZ",
+    "TTT", "DDD", "XXX" };
+
+    int dataSize = sizeof(data) / sizeof(char*);
+
+    char* heap[HSIZE] = { NULL };
+    int currentHeapSize = 0;
+    int maxHeapSize = HSIZE - 1;
+
+    int isInserted, isDeleted;
+    char* deleteValue;
+
+    printf_s("[Data] \n");
+    printArray((char**)data, 0, dataSize - 1);
+    
+    printf_s("\n\n");
+
+    for (int i = 0; i < maxHeapSize; i++) {
+        isInserted = 0;
+        insertHeap((char*)data[i], heap, &currentHeapSize, maxHeapSize, &isInserted);
+       
+        if (isInserted == 1) printf_s("%s is inserted to heap suscces, length %d \n", data[i], currentHeapSize);
+        else printf_s("failed to insert %s to the heap\n", data[i]);
+
+        printf_s("[Heap] \n");
+        printArray(heap, 1, currentHeapSize);
+        printf_s("\n");
+    }
+
+    printf_s("\n");
+
+    printf_s("[Heap] \n");
+    printArray(heap, 1, currentHeapSize);
+
+
+    printf_s("\n\n");
+
+    isDeleted = 0;
+    deleteHeap(heap, &currentHeapSize, &deleteValue, &isDeleted);
+    if (isDeleted == 1) printf_s("%s is deleted to heap suscces\n", deleteValue);
+
+    printf_s("\n");
+
+    printf_s("[Heap] - Deleted 1 data \n");
+    printArray(heap, 1, currentHeapSize);
+}
+    
