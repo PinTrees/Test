@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{671a3b0e-1e0e-4d56-a035-11ce59f984a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{e704773e-fdf1-4427-9f67-639d4d215fa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{ccff822d-de79-4467-8b1e-e639712a48d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{c2af701d-cb03-4ffc-89a0-f1c5028ec144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SubjectManager">
+      <UniqueIdentifier>{a5a34fe9-144e-440e-a99c-2e6fa3e2888e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Product">
+      <UniqueIdentifier>{977952c3-9868-4974-8c78-55c3b7f1e8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\List">
+      <UniqueIdentifier>{62aa2a6c-3d7c-44f1-8104-f7db46c6ab05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="SubManager.cpp">
+      <Filter>Manager\SubjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="electronicManager.cpp">
+      <Filter>Manager\SubjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="goodsManager.cpp">
+      <Filter>Manager\SubjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="clothesManager.cpp">
+      <Filter>Manager\SubjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="product.cpp">
+      <Filter>Class\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="fileManager.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="clothesManager.h">
+      <Filter>Manager\SubjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="goodsManager.h">
+      <Filter>Manager\SubjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="electronicManager.h">
+      <Filter>Manager\SubjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SubManager.h">
+      <Filter>Manager\SubjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="intmap.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="goods.h">
+      <Filter>Class\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="clothes.h">
+      <Filter>Class\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="electronic.h">
+      <Filter>Class\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="product.h">
+      <Filter>Class\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="fileManager.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Helper\List</Filter>
+    </ClInclude>
+    <ClInclude Include="listarray.h">
+      <Filter>Helper\List</Filter>
+    </ClInclude>
+    <ClInclude Include="listbase.h">
+      <Filter>Helper\List</Filter>
+    </ClInclude>
+    <ClInclude Include="stringMap.h">
+      <Filter>Helper\List</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
