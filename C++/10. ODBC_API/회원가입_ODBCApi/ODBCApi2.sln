@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ODBCApi2", "ODBCApi2.vcxproj", "{CEC686DD-F430-4262-A814-F8D244605DAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEC686DD-F430-4262-A814-F8D244605DAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEC686DD-F430-4262-A814-F8D244605DAD}.Debug|Win32.Build.0 = Debug|Win32
+		{CEC686DD-F430-4262-A814-F8D244605DAD}.Release|Win32.ActiveCfg = Release|Win32
+		{CEC686DD-F430-4262-A814-F8D244605DAD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E104C8B-7D64-42F1-825B-B7EF592204D2}
+	EndGlobalSection
+EndGlobal
