@@ -100,6 +100,11 @@ public:
 #include "GameObject.h"
 ```
 
+11. 가능한 모든 경우에 NULL 대신 nullptr 사용
+ ```c++
+Cobject* data = nullptr;
+```
+
 ### 코드 포멧
 1. 중괄호( {} )
  ```c++
@@ -127,6 +132,12 @@ int*  number;
 2. cont 사용
 ```c++
 const Monster* GetMonsterByIndex(const int index) const;
+
+// 명확하지 않은 함수 이름
+bool CheckHp();
+
+// 명확한 함수 이름
+bool IsDeath();
 ```
 
 3. 함수에서 매개변수를 통해 값을 반환할 때(out 매개변수)는 포인터를 사용하며, 매개변수 이름 앞에 out_을 표기
